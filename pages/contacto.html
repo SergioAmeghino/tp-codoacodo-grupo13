@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/assets/css/contacto.css">
         <link rel="stylesheet" href="/assets/css/hyf.css">
-        <title>Contacto</title>
+        <title>HSR - Contacto</title>
     </head>
-    <body>
+    <body> 
         <header class="header">
             <a href="#" class="logo">HSR</a>
             <input type="checkbox" id="side-menu" class="side-menu">
@@ -24,35 +24,44 @@
     
                 </ul>
             </nav>
+            <div class="formulario">      
+                <h1>Formulario de contacto</h1>
+                <h3>Escríbanos y en breve responderemos su consulta</h3>
+                <form action="https://formspree.io/f/myyaaoyn" method="POST" class="formulario" >       
+                      <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                          <span class="obligatorio">*</span>
+                        </label>
+                          <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                      </p>
+                    
+                      <p>
+                        <label for="email" class="colocar_email">Email
+                          <span class="obligatorio">*</span>
+                        </label>
+                          <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu email">
+                      </p>
+                      <p>
+                        <label for="telefone" class="colocar_telefono">Teléfono
+                        </label>
+                          <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                      </p>    
+                      <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                          <span class="obligatorio">*</span>
+                        </label>                     
+                                          <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                      </p>                    
+                    
+                      <button type="submit" name="enviar_formulario" id="enviar"><p><b>Enviar</b></p></button>
+      
+                      <p class="aviso">
+                        <span class="obligatorio"> * </span>Los campos son obligatorios.
+                      </p>          
+                </form>
+            </div>  
         </header>
-            <form action="https://formspree.io/f/myyaaoyn" method="POST" class="formulario" >
-                <h1 class="formulario__titulo">Contáctenos</h1>
-                <input type="text" class="formulario__input" name= "Nombre">
-                <label for="" class="formulario__label">Nombre</label>
-                <input type="text" class="formulario__input" name="Mail">
-                <label for="" class="formulario__label">Mail</label>
-                <input type="text" class="formulario__input" name="Telefono">
-                <label for="" class="formulario__label">Teléfono</label>
-                <input type="text" class="formulario__input" name="Mensaje">
-                <label for="" class="formulario__label">Mensaje</label>
-                <input type="submit" class="formulario__submit">
-            </form>
-            
-        </div>
-        <footer class="footer">
-            <div class="textofooter">
-                <hr>
-                <h3>San Martín 1867 - Villaguay</h3>
-                <h4>Ministerio de Salud - Provincia de Entre Ríos</h4>
-                <br>
-                <h3 >Link de interés</h3>            
-                <div class="interes">
-                    <a href="https://www.argentina.gob.ar/salud" target="_blank">Ministerio de Salud de la Nación</a>
-                    <a href="https://www.entrerios.gov.ar" target="_blank">Gobierno de Entre Ríos</a>
-                    <a href="https://www.entrerios.gov.ar/msalud/"  target="_blank">Ministerio de Salud de Entre Ríos</a>
-                </div>
-            </div>
-        </footer>
-        <script src="/assets/js/contacto.js"></script> 
+  
     </body>
 </html>
+
