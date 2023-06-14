@@ -7,16 +7,10 @@
 
 h1 {
     margin-top: 30px;
-    color: #0A4D68;
 }
-
-h2 {
-    color: #088395;
-}
-
 
 section {
-    width: 90%;
+    width: 95%;
     padding: 40px;
     background: whitesmoke;
     margin: auto;
@@ -28,8 +22,8 @@ section {
 }
 
 summary {
-    background: #088395;
-    color: white;
+    background: #5C8984;
+    color: whitesmoke;
     padding: 20px;
     cursor: pointer;
     font-weight: bold;
@@ -37,6 +31,6 @@ summary {
 
 p {
     padding: 10px;
-    background: white;
+    background: whitesmoke;
 }
 
