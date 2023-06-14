@@ -4,7 +4,7 @@
 
 <h2>Proyecto web Hospital Santa Rosa</h2>
 
-<h4>Grupo 13: Miños, Daniel - Campaño Molina, Angel Emanuel - Otero, Roberto Javier - Ameghino Cabrera, Sergio Ariel.</h4>  
+<h4>Grupo 13: Miños, Daniel - Campaño Molina, Angel Emanuel - Otero, Javier Roberto - Ameghino Cabrera, Sergio Ariel.</h4>  
 
 <h4>Proyecto:</h4> <p>El proyecto intenta dotar de una página web al Hospital público de Santa Rosa, Villaguay, Prov. de Entre Ríos.</p>
 
@@ -22,7 +22,7 @@
 <h5>Integrantes:</h5>
   <p>- Miños Daniel: realización de las pages <i>"index"</i> e <i>"institucional"</i>.</p>
   <p>- Campaño Molina, Angel Emanuel: realización de la page <i>"licitaciones"</i>.</p>
-  <p>- Otero Roberto Javier: realización de la page <i>"contacto"</i>.</p>
+  <p>- Otero Javier Roberto: realización de la page <i>"contacto"</i>.</p>
   <p>- Ameghino Sergio Ariel: realización de las pages <i>"pacientes"</i> y <i>"servicios médicos"</i>.</p>
 
 <h5>API:</h5><p>Se utiza la api <b>Formspree</b> ( https://formspree.io) para el formulario de contacto, que envía un mail a htal.sta.rosa@gmail.com.</p> 
